@@ -48,3 +48,48 @@ body {
     font-size: 16px;
     margin: 15px 0px;
 }
+
+/* Featured Css Here */
+.featured{
+    padding: 50px 0px;
+}
+.featured-title h1 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.featured-title p{
+    text-align: center;
+    width: 55%;
+    margin: 20px auto;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.featured-img {
+    text-align: center;
+}
+
+#img-1 {
+    width: 15%;
+    background-color: #F2DEE7;
+    margin: 0px 10px 0px 10px;
+    padding: 30px 0px 0px 0px;
+    border-radius: 50% 50% 0% 0%;
+}
+
+#img-2 {
+    width: 15%;
+    background-color: #DAEFF1;
+    margin: 0px 10px 0px 10px;
+    padding: 60px 0px 0px 0px;
+    border-radius: 50% 50% 0% 0%;
+}
+
+#img-3 {
+    width: 15%;
+    background-color: #E3ECDB;
+    margin: 0px 10px 0px 10px;
+    padding: 30px 0px 0px 0px;
+    border-radius: 50% 50% 0% 0%;
+}
