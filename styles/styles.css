@@ -1,4 +1,50 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.inner-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 15px 30px;
+    color: #fff;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header and banner css here */
+.banner {
+    background-color: #FCEEF1;
+    padding-top: 50px;
+
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-info h1 {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.banner-info p {
+    width: 75%;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    margin: 15px 0px;
 }
