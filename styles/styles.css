@@ -50,16 +50,18 @@ body {
 }
 
 /* Featured Css Here */
-.featured{
+.featured {
     padding: 50px 0px;
 }
+
 .featured-title h1 {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
     text-align: center;
 }
-.featured-title p{
+
+.featured-title p {
     text-align: center;
     width: 55%;
     margin: 20px auto;
@@ -92,4 +94,29 @@ body {
     margin: 0px 10px 0px 10px;
     padding: 30px 0px 0px 0px;
     border-radius: 50% 50% 0% 0%;
+}
+
+/* Hot deal css here */
+.hot-deal{
+    background-color: #FEF6F8;
+    padding: 50px 0px;
+}
+.hot-deal-info {
+    text-align: center;
+}
+
+.hot-deal-info h2 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.hot-deal-info p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    width: 75%;
+    margin: 20px auto;
+}
+.hot-deal-img img{
+    width: 80%;
 }
