@@ -156,7 +156,21 @@ body, footer {
 .hot-deal-info span{
     color:#E55473;
 }
-
+/* video sell section css here */
+.video-post{
+    display: flex;
+    align-items: center;
+}
+.video-description h1{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+.video-description p{
+    color: #27272799;
+    font-size: 16px;
+    margin: 20px auto;
+}
 /* Social section css here */
 .social {
     text-align: center;
