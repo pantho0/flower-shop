@@ -70,28 +70,27 @@ body, footer {
 
 .featured-img {
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 #img-1 {
-    width: 15%;
+    width: 60%;
     background-color: #F2DEE7;
-    margin: 0px 10px 0px 10px;
     padding: 30px 30px 0px 30px;
     border-radius: 50% 50% 0% 0%;
 }
 
 #img-2 {
-    width: 15%;
+    width: 60%;
     background-color: #DAEFF1;
-    margin: 0px 10px 0px 10px;
     padding: 30px 30px 0px 30px;
     border-radius: 50% 50% 0% 0%;
 }
 
 #img-3 {
-    width: 15%;
+    width: 60%;
     background-color: #E3ECDB;
-    margin: 0px 10px 0px 10px;
     padding: 30px 30px 0px 30px;
     border-radius: 50% 50% 0% 0%;
 }
