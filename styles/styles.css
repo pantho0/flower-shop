@@ -125,6 +125,7 @@ body, footer {
 /* Social section css here */
 .social {
     text-align: center;
+    padding: 50px 0px;
 }
 
 .social-title h1 {
@@ -175,6 +176,7 @@ body, footer {
 .subscribe-info input {
     padding: 15px 200px 15px 15px;
     border: 0;
+    border-radius: 5px;
     margin-right: 10px;
     text-align: left !important;
 }
@@ -188,6 +190,7 @@ input[type="email"]::placeholder {
     background-color: #111010;
     text-align: center;
     padding: 80px 0px;
+    margin-top: 50px;
 }
 
 .footer-title {
