@@ -104,7 +104,14 @@ body, footer {
     display: flex;
     justify-content: space-around;
     background-color: #F4F4F4;
-    padding: 50px 0px;
+    padding: 25px 0px;
+    align-items: center;
+}
+.support-info img{
+    width: 30%;
+}
+.img-w{
+    width: 45% !important;
 }
 
 /* Hot deal css here */
