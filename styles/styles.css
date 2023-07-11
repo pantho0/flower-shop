@@ -94,6 +94,18 @@ body, footer {
     padding: 30px 30px 0px 30px;
     border-radius: 50% 50% 0% 0%;
 }
+/* Support section css here */
+.support{
+    
+    text-align: center;
+    padding:50px 0px;
+}
+.support-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F4F4F4;
+    padding: 50px 0px;
+}
 
 /* Hot deal css here */
 .hot-deal {
@@ -120,6 +132,9 @@ body, footer {
 
 .hot-deal-img img {
     width: 80%;
+}
+.hot-deal-info span{
+    color:#E55473;
 }
 
 /* Social section css here */
