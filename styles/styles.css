@@ -21,7 +21,7 @@
     color: #fff;
 }
 
-body {
+body, footer {
     font-family: 'Lato', sans-serif;
 }
 
@@ -144,4 +144,59 @@ body {
 .social-img img {
     width: 20%;
     margin: 0px 10px 0px 10px;
+}
+
+/* Subscribe section css here */
+.subscribe {
+    margin: 35px 0px;
+}
+
+.subscribe-info {
+    text-align: center;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    padding: 70px 0px;
+}
+
+.subscribe-info h1 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.subscribe-info p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    width: 55%;
+    margin: 20px auto;
+}
+
+.subscribe-info input {
+    padding: 15px 200px 15px 15px;
+    border: 0;
+    margin-right: 10px;
+    text-align: left !important;
+}
+
+input[type="email"]::placeholder {
+    text-align: left;
+}
+
+/* Footer section css here */
+.footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.footer-title span{
+    color: #E55473;
 }
