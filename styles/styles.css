@@ -171,6 +171,9 @@ body, footer {
     font-size: 16px;
     margin: 20px auto;
 }
+.video-description span{
+    color: #E55473;
+}
 /* Social section css here */
 .social {
     text-align: center;
