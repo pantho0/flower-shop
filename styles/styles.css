@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+a {
+    color: #111010;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -22,14 +26,17 @@
     color: #fff;
     cursor: pointer;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background: #ff1f4fd8;
 }
 
-body, footer {
+body,
+footer {
     font-family: 'Lato', sans-serif;
 }
 
+/* ============================================== */
 /* Header and banner css here */
 .banner {
     background-color: #FCEEF1;
@@ -51,9 +58,10 @@ body, footer {
     width: 75%;
     color: #27272799;
     font-size: 16px;
-    margin: 15px 0px;
+    margin: 20px 0px;
 }
 
+/* ============================================== */
 /* Featured Css Here */
 .featured {
     padding: 60px 0px;
@@ -80,7 +88,7 @@ body, footer {
     margin-top: 40px;
 }
 
-.featured-img p{
+.featured-img p {
     text-decoration: underline;
     margin-top: 10px;
     font-weight: 700;
@@ -106,12 +114,15 @@ body, footer {
     padding: 30px 30px 0px 30px;
     border-radius: 50% 50% 0% 0%;
 }
+
+/* ============================================== */
 /* Support section css here */
-.support{
-    
+.support {
+
     text-align: center;
-    padding:50px 0px;
+    padding: 50px 0px;
 }
+
 .support-info {
     display: flex;
     justify-content: space-around;
@@ -119,13 +130,16 @@ body, footer {
     padding: 25px 0px;
     align-items: center;
 }
-.support-info img{
+
+.support-info img {
     width: 30%;
 }
-.img-w{
+
+.img-w {
     width: 45% !important;
 }
 
+/* ============================================== */
 /* Hot deal css here */
 .hot-deal {
     background-color: #FEF6F8;
@@ -153,28 +167,45 @@ body, footer {
 .hot-deal-img img {
     width: 80%;
 }
-.hot-deal-info span{
-    color:#E55473;
+
+.hot-deal-info span {
+    color: #E55473;
 }
+
+/* ============================================== */
 /* video sell section css here */
-.video-post{
+.video-sell-post {
+    margin: 50px 0px;
+}
+
+.video-post {
     display: flex;
     align-items: center;
 }
-.video-description h1{
+
+.video-description h1 {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
 }
-.video-description p{
+
+.video-description p {
     color: #27272799;
     font-size: 16px;
     margin: 20px auto;
 }
-.video-description span{
+
+.video-description span {
     color: #E55473;
 }
+
+/* ============================================== */
 /* Social section css here */
+.social-img {
+    margin: 30px 0px;
+
+}
+
 .social {
     text-align: center;
     padding: 50px 0px;
@@ -198,9 +229,10 @@ body, footer {
     margin: 0px 10px 0px 10px;
 }
 
+/* ============================================== */
 /* Subscribe section css here */
 .subscribe {
-    margin: 35px 0px;
+    margin-bottom: 65px;
 }
 
 .subscribe-info {
@@ -237,12 +269,12 @@ input[type="email"]::placeholder {
     text-align: left;
 }
 
+/* ============================================== */
 /* Footer section css here */
 .footer {
     background-color: #111010;
     text-align: center;
-    padding: 80px 0px;
-    margin-top: 50px;
+    padding: 50px 0px;
 }
 
 .footer-title {
@@ -251,17 +283,19 @@ input[type="email"]::placeholder {
     font-weight: 800;
 }
 
-.footer-title span{
+.footer-title span {
     color: #E55473;
 }
-.footer p{
+
+.footer p {
     color: #ffffffe6;
     font-size: 15px;
     width: 55%;
     margin: 20px auto;
     width: 40%;
 }
-#copyright{
+
+#copyright {
     color: #ffffff66;
     font-size: 14px;
 }
